@@ -1,0 +1,117 @@
+.full-body {
+    background: #171717;
+    color: white;
+}
+.body-content {
+    padding-top: 30px;
+}
+
+h1.content-h1 {
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+.fl{
+    float: left;
+}
+.block-content{
+    width: 30%;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.block-content-distance img {
+    width: 100%;
+    height: 450px;
+}
+p.heading-title {
+    letter-spacing: .125rem;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.block-line {
+    display: block;
+    width: 20px;
+    height: 1px;
+    margin: 20px 0;
+    content: "";
+    background-color: #8c8c8c;
+}
+span {
+    line-height: 26px;
+}
+.block-content-distance {
+    padding: 20px 20px 20px 60px;
+}
+.hightlight {
+    line-height: 1.6;
+    font-size: .75rem;
+    position: relative;
+    letter-spacing: .09375rem;
+    color: white;
+}
+
+.hightlight:after {
+    position: absolute;
+    display: block;
+    width: 19%;
+    height: 1px;
+    content: "";
+    background: #de2b2b;
+    transition: width .5s;
+    top: 18px;
+}.hightlight {
+     line-height: 1.6;
+     font-size: .75rem;
+     position: relative;
+     letter-spacing: .09375rem;
+     color: white;
+ }
+
+.hightlight:after {
+    position: absolute;
+    display: block;
+    width: 19%;
+    height: 1px;
+    content: "";
+    background: #de2b2b;
+    transition: width .5s;
+    top: 18px;
+}
+.content-hightLight {
+    background: #262626;
+}
+
+.hight-pading {
+    padding: 70px 22px;
+    padding-left: 150px;
+}
+
+.hight-pading h2 {
+    margin-bottom: 10px;
+    letter-spacing: .125rem;
+    font-size: 2.5rem;
+    line-height: 1.125;
+}
+
+.hight-pading p {
+    letter-spacing: normal;
+    font-size: 1.125rem;
+    line-height: 1.77778;
+    font-family: Galaxie Copernicus Book,Arial,sans-serif;
+}
+p.signup-button {
+    width: 170px;
+    background: white;
+    color: black;
+    height: 40px;
+    padding-top: 14px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+}
